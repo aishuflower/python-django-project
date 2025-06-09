@@ -13,7 +13,7 @@ Requirements
 1. **Clone the Repository**
 
 At bash
-1) git clone https://github.com/YOUR_USERNAME/python-django-project.git
+1) git clone https://github.com/aishuflower/python-django-project.git
 2) cd python-django-project
 
 2. **Create and Activate Virtual Environment**
