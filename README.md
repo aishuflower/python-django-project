@@ -13,8 +13,24 @@ Requirements
 1. **Clone the Repository**
 
 At bash
-git clone https://github.com/YOUR_USERNAME/python-django-project.git
-cd python-django-project
+1) git clone https://github.com/YOUR_USERNAME/python-django-project.git
+2) cd python-django-project
+
+2. **Create and Activate Virtual Environment**
+
+bash
+# Windows (CMD or PowerShell)
+python -m venv env
+env\Scripts\activate
+
+# Git Bash
+python -m venv env
+source env/Scripts/activate
+
+3.**Install Dependencies**
+
+bash
+pip install -r requirements.txt
 
 To run this project use the commands given below
 1) python manage.py makemigrations
