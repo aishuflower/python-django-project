@@ -27,11 +27,12 @@ env\Scripts\activate
 python -m venv env
 source env/Scripts/activate
 
-3.**Install Dependencies**
+3. **Install Dependencies**
 
 bash
 pip install -r requirements.txt
 
+4. **Run**
 To run this project use the commands given below
 1) python manage.py makemigrations
 2) python manage.py migrate
